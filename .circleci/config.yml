@@ -8,9 +8,9 @@ jobs:
     steps:
       - checkout:
           path: ~/UI
-      - run:
-          name: Install Dependencies for Project 1
-          command: npm install
+#      - run:
+ #         name: Install Dependencies for Project 1
+  #        command: npm install
       - run:
           name: Run Tests for Project 1
           command: npm run test
@@ -22,9 +22,9 @@ jobs:
     steps:
       - checkout:
           path: ~/API
-      - run:
-          name: Install Dependencies for Project 2
-          command: npm install
+   #   - run:
+    #      name: Install Dependencies for Project 2
+     #     command: npm install
       - run:
           name: Run Tests for Project 2
           command: npm run test
