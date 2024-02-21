@@ -2,11 +2,12 @@ version: 3.0
 
 jobs:
   UI_build:
+   working_directory: ~/UI
     docker:
       - image: cimg/node:21.6.1
-    working_directory: /UI
     steps:
-      - checkout
+      - checkout:
+          path: ~/UI
       - run:
           name: Install Dependencies for Project 1
           command: npm install
@@ -17,9 +18,10 @@ jobs:
   API_build:
     docker:
       - image: cimg/node:21.6.1
-    working_directory: /API
+    working_directory: ~/API
     steps:
-      - checkout
+      - checkout:
+          path: ~/API
       - run:
           name: Install Dependencies for Project 2
           command: npm install
