@@ -10,10 +10,7 @@ jobs:
           path: ~/UI
       - run:
           name: Install Dependencies for UI Project
-          command: npm ci
-      - run:
           command: npm install nightwatch --save-dev
-      - run:
           command: npm i chromedriver --save-div
       - run:
           name: Run Tests for UI Project
