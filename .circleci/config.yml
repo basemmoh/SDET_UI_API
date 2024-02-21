@@ -14,8 +14,6 @@ jobs:
       - run:
           command: npm i chromedriver --save-div
       - run:
-          command: npm init nightwatch
-      - run:
           name: Run Tests for UI Project
           command: npm run test
 
