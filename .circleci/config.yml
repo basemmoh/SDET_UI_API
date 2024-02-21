@@ -11,6 +11,7 @@ jobs:
       - run:
           name: Install Dependencies for UI Project
           command: npm install nightwatch --save-dev
+      - run:
           command: npm i chromedriver --save-div
       - run:
           name: Run Tests for UI Project
@@ -26,6 +27,8 @@ jobs:
       - run:
           name: Install Dependencies for API Project
           command: npm install jest
+      -run:
+          command: npm i --save mock-user-auth
       - run:
           name: Run Tests for API Project 
           command: npm run test
