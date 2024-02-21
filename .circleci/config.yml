@@ -2,9 +2,9 @@ version: 3.0
 
 jobs:
   UI_build:
-   working_directory: ~/UI
     docker:
       - image: cimg/node:21.6.1
+    working_directory: ~/UI
     steps:
       - checkout:
           path: ~/UI
