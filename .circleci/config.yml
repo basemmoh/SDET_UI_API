@@ -10,7 +10,7 @@ jobs:
           path: ~/UI
       - run:
           name: Install Dependencies for UI Project
-          command: npm install
+          command: npm ci
       - run:
           command: npm install nightwatch --save-dev
       - run:
