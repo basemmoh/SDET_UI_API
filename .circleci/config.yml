@@ -1,0 +1,34 @@
+version: 2.1
+
+jobs:
+  UI_build:
+    docker:
+      - image: cimg/node:21.6.1
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies for Project 1
+          command: npm install
+      - run:
+          name: Run Tests for Project 1
+          command: npm run test
+
+  API_build:
+    docker:
+      - image: cimg/node:21.6.1
+    working_directory: /SDET_Technical_Task_API
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies for Project 2
+          command: npm install
+      - run:
+          name: Run Tests for Project 2
+          command: npm run test
+
+workflows:
+  version: 2
+  build_projects:
+    jobs:
+      - UI_build
+      - API_build
