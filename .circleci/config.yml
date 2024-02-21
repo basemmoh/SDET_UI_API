@@ -1,4 +1,4 @@
-version: 2.1
+version: 3.0
 
 jobs:
   UI_build:
@@ -28,7 +28,7 @@ jobs:
           command: npm run test
 
 workflows:
-  version: 2
+  version: 3
   build_projects:
     jobs:
       - UI_build
