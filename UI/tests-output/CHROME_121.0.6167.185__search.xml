@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="search"
+    errors="0" failures="1" hostname="" id="" package="search" skipped="0"
+    tests="1" time="31.67" timestamp="">
+  
+    <testcase name="Search Test Suite" classname="search" time="15.84" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="This item belongs to dress search in 5000ms - expected &#34;contains text &#39;Dress&#39;&#34; but got: &#34;does not contain &#39;Dress&#39;&#34; (5063ms)">    at Page.itemSelector (D:\basem\Study\SDET Technical Task\SDET Technical Task UI\page-objects\searchPage.js:24:25)
+    at Search Test Suite (D:\basem\Study\SDET Technical Task\SDET Technical Task UI\tests\search.js:18:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

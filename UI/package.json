@@ -1,0 +1,19 @@
+{
+  "name": "SDET_Eechnical_task_UI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nightwatch": "^3.4.1"
+  },
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chromedriver": "^121.0.1"
+  }
+}
