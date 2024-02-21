@@ -4,6 +4,7 @@ jobs:
   UI_build:
     docker:
       - image: cimg/node:21.6.1
+    working_directory: /UI
     steps:
       - checkout
       - run:
@@ -16,7 +17,7 @@ jobs:
   API_build:
     docker:
       - image: cimg/node:21.6.1
-    working_directory: /SDET_Technical_Task_API
+    working_directory: /API
     steps:
       - checkout
       - run:
