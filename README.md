@@ -1,4 +1,6 @@
-﻿# SDET-Tecnhnical-Task
+# SDET-Tecnhnical-Task
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/6wZLmLjoazoQKqY8JxgwLz/FaKr68pi1fKomEh25NGrQw/tree/main.svg?style=svg&circle-token=01211aa7090146af985e1b313f3655e97388b420)](https://dl.circleci.com/status-badge/redirect/circleci/6wZLmLjoazoQKqY8JxgwLz/FaKr68pi1fKomEh25NGrQw/tree/main)
 
 # The project contains two folders one for testing UI Using nightWatch.js:
 # That test two pages of an E-Commerce Site which are ContactUs and Search page
