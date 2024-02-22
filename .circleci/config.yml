@@ -30,6 +30,8 @@ jobs:
       - run:
           command: npm i --save mock-user-auth
       - run:
+          command: npm install express 
+      - run:
           name: Run Tests for API Project 
           command: npm run test
 
