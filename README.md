@@ -2,7 +2,8 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/6wZLmLjoazoQKqY8JxgwLz/FaKr68pi1fKomEh25NGrQw/tree/main.svg?style=svg&circle-token=01211aa7090146af985e1b313f3655e97388b420)](https://dl.circleci.com/status-badge/redirect/circleci/6wZLmLjoazoQKqY8JxgwLz/FaKr68pi1fKomEh25NGrQw/tree/main)
 
-# The project contains two folders one for testing UI Using nightWatch.js:
+# The project contains two folders UI and API
+# Testing UI Using nightWatch.js:
 # That test two pages of an E-Commerce Site which are ContactUs and Search page
 # The contactUs tests contains of 3 tests with valid and invalid data
 # The search page contains of one test case and one bug
@@ -19,3 +20,5 @@
 # 4:edit	user with Authentication using	PATCH HTTPS Request
 # 5:DELETE user with Authentication using	DELETE HTTPS Request
 # 6:DELETE all users Using DELETE HTTPS Request
+
+# Also Used CircleCI to setup CI/CD 
