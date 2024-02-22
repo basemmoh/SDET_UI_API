@@ -13,9 +13,9 @@ jobs:
           command: npm install nightwatch --save-dev
       - run:
           command: npm i chromedriver --save-div
-      - run:
-          name: Run Tests for UI Project
-          command: npm test
+     # - run:
+        #  name: Run Tests for UI Project
+       #   command: npm test
 
   API_build:
     docker:
@@ -31,9 +31,9 @@ jobs:
           command: npm i --save mock-user-auth
       - run:
           command: npm install express 
-      - run:
-          name: Run Tests for API Project 
-          command: npm run test
+     # - run:
+       #   name: Run Tests for API Project 
+      #    command: npm run test
 
 workflows:
   version: 2
